@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img alt="Vuelogo" src="../assets/tmdb.png" id="tmdb" />
+    <Dashboard msg="Welcome to TMDB with Vue." />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import 	Dashboard from "@/components/Dashboard.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    Dashboard
   }
 };
 </script>
+
+<style>
+#tmdb{
+	position:relative;
+	left: 250px;
+}
+</style>
