@@ -10,8 +10,8 @@
                   <div class="info-div">
                       <h3 class="poster__title">{{movie.title}}</h3>
                       <p class="poster__text">{{movie.overview}}</p>
-                      <p class="rating">{{movie.vote_average}}/10</p>
-                      <p class="date">{{movie.release_date}}</p>
+                      <p class="rating">{{movie.vote_average}}/10<span>_IMDB*</span></p>
+                      <p class="date"><span>In screen on :</span>{{movie.release_date}}</p>
                   </div>
               </div>
               </li>
